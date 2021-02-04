@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Tablet</title>
+</head>
+<body>
+    <div class='table'>
+        <table border="1" >
+            <tr>
+                <td id='1' style="background: red;">1</td>
+                <td id='2' style="color: blue; font-style: italic;">2</td>
+                <td id='3'>3</td>
+                <td id='4'>4</td>
+            </tr>
+            <tr>
+                <td id='5'>5</td>
+                <td id='6'>6</td>
+                <td id='7'>7</td>
+                <td id='8'>8</td>
+            </tr>
+            <tr>
+                <td id='9'>9</td>
+                <td id='10'>10</td>
+                <td id='11'>11</td>
+                <td id='12'>12</td>
+            </tr>
+        </table>
+    </div>
+    <br />
+    <div class='form'>
+        <div>выберите цвет:</div>
+        <br>
+        <div style="text-align: center;" id='colorChange'>
+            
+            <div id='red'  style='background: red;'>red</div>
+            <div id='green' style='background: green'>green</div>
+            <div id='blue' style='background: blue;'>blue</div>
+        </div>
+        <br>
+        <div>выберите ячейку</div>
+        <input maxlength="2" id='numChange' type="text" placeholder="введите номер ячейки">
+        <button id='button'>отправить</button>
+    </div>
+    <script src='index.js'></script>
+</body>
+</html>
